@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/humidadeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidade" />
+
+    <TextView
+        android:id="@+id/valorHumidadeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/luminosidadeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luminosidade" />
+
+    <TextView
+        android:id="@+id/valorLuminosidadeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ledTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED 1"
+        android:layout_columnSpan="2"/>
+
+    <Button
+        android:id="@+id/ligarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar" />
+
+    <Button
+        android:id="@+id/desligarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desligar" />
+
+    <TextView
+        android:id="@+id/estadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado" />
+
+    <TextView
+        android:id="@+id/valorEstadoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ligado" />
+
+</GridLayout>

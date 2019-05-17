@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IoT App</string>
+    <string name="web_service_url">http://localhost:8080/ApiIoT/rest/arduino</string>
+</resources>
