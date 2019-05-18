@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">IoT App</string>
     <string name="web_service_url">http://192.168.56.1:8080/ApiIoT/rest/arduino</string>
+    <string name="web_service_url_lg">http://192.168.56.1:8080/ApiIoT/rest/arduino/LIGADO</string>
+    <string name="web_service_url_des">http://192.168.56.1:8080/ApiIoT/rest/arduino/DESLIGADO</string>
     <!--<string name="web_service_url">http://localhost:8080/ApiIoT/rest/arduino</string>-->
 </resources>
