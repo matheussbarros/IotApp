@@ -50,11 +50,12 @@
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_margin="@dimen/marginAll"
+        android:layout_marginTop="@dimen/g_margin_top"
         android:text="LED 1"
         android:textSize="@dimen/fontApp" />
 
     <Button
-        android:id="@+id/ligarButton"
+        android:id="@+id/ligarLedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center|left"
@@ -63,7 +64,7 @@
         android:text="Ligar" />
 
     <Button
-        android:id="@+id/desligarButton"
+        android:id="@+id/desligarLedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -88,5 +89,63 @@
         android:layout_margin="@dimen/marginAll"
         android:text="ligado"
         android:textSize="@dimen/fontApp" />
+
+
+    <TextView
+        android:id="@+id/buzzerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_margin="@dimen/marginAll"
+        android:layout_marginTop="@dimen/g_margin_top"
+        android:text="BUZZER"
+        android:textSize="@dimen/fontApp" />
+
+    <Button
+        android:id="@+id/ligarBuzzerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="@dimen/marginAll"
+        android:background="@color/btnLigar"
+        android:text="Ligar" />
+
+    <Button
+        android:id="@+id/desligarBuzzerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/marginAll"
+        android:background="@color/btnDesligar"
+        android:text="Desligar" />
+
+
+    <TextView
+        android:id="@+id/estadoBuzzerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_margin="@dimen/marginAll"
+        android:text="Estado"
+        android:textSize="@dimen/fontApp" />
+
+    <TextView
+        android:id="@+id/valorEstadoBuzzerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/marginAll"
+        android:text="ligado"
+        android:textSize="@dimen/fontApp" />
+
+    <Button
+        android:id="@+id/atualizarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="@dimen/marginAll"
+        android:background="@color/colorPrimary"
+        android:text="ATUALIZAR" />
+
 
 </GridLayout>

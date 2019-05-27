@@ -2,4 +2,5 @@
 <resources>
     <dimen name="fontApp">20sp</dimen>
     <dimen name="marginAll">5dp</dimen>
+    <dimen name="g_margin_top">15dp</dimen>
 </resources>
