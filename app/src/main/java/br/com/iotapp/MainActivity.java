@@ -110,18 +110,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 /*
                     Passa os Valores do Objeto Json para os textView.
                 */
-                valorHumidadeText.setText(obj.getString("humidade"));
-                valorLuminosidadeText.setText(obj.getString("luminosidade"));
+                valorHumidadeText.setText(obj.getString("hum"));
+                valorLuminosidadeText.setText(obj.getString("luz"));
 
 
                 String ledd = obj.getString("led");
-                if(ledd.equals("DESLIGADO")){
+                if(ledd.equals(0) || ledd.equals("0")){
                     valorEstadoText.setText("Desligado");
                 }else{
                     valorEstadoText.setText("Ligado");
                 }
                 String buzz = obj.getString("buzzer");
-                if(buzz.equals("DESLIGADO")){
+                if(buzz.equals(0) || buzz.equals("0")){
                     valorEstadoBuzzerText.setText("Desligado");
                 }else{
                     valorEstadoBuzzerText.setText("Ligado");
@@ -163,6 +163,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         protected void onPostExecute(String obj) {
             try {
+                Thread.sleep(3000);
                 ConnectApi(urlApi);
             } catch (Exception e) {
                 e.printStackTrace();

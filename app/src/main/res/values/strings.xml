@@ -3,9 +3,9 @@
     <!--<string name="web_service_url">http://192.168.56.1:8080/ApiIoT/rest/arduino</string>-->
     <!--<string name="web_service_url_lg">http://192.168.56.1:8080/ApiIoT/rest/arduino/LIGADO</string>-->
     <!--<string name="web_service_url_des">http://192.168.56.1:8080/ApiIoT/rest/arduino/DESLIGADO</string>-->
-    <string name="web_service_url">http://192.168.56.1:8080/ApiIoT/rest/arduino</string>
-    <string name="ws_led_on">http://192.168.56.1:8080/ApiIoT/rest/arduino/LIGADO</string>
-    <string name="ws_led_off">http://192.168.56.1:8080/ApiIoT/rest/arduino/DESLIGADO</string>
-    <string name="ws_buzzer_on">http://192.168.56.1:8080/ApiIoT/rest/arduino/buzzer/LIGADO</string>
-    <string name="ws_buzzer_off">http://192.168.56.1:8080/ApiIoT/rest/arduino/buzzer/DESLIGADO</string>
+    <string name="web_service_url">http://10.3.8.30:1880/arduino/api/dados</string>
+    <string name="ws_led_on">http://10.3.8.30:1880/led/ligar</string>
+    <string name="ws_led_off">http://10.3.8.30:1880/led/desligar</string>
+    <string name="ws_buzzer_on">http://10.3.8.30:1880/buzzer/ligar</string>
+    <string name="ws_buzzer_off">http://10.3.8.30:1880/buzzer/desligar</string>
 </resources>
